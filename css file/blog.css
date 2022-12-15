@@ -1,0 +1,146 @@
+section {
+  margin: 3rem 0 0 0;
+}
+
+.heading-blog {
+  background: url("/images/banner-03.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.heading-blog h1 {
+  font-size: 3rem;
+  padding: 3rem 2rem;
+  margin-left: 5rem;
+  color: #000;
+}
+
+.recent {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 1rem;
+  margin-right: 1rem;
+  margin-left: 1rem;
+}
+
+.post-main {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.post-main a {
+  color: blue;
+  text-decoration: none;
+}
+
+.blog {
+  margin: 3rem 1rem;
+  padding: 1rem;
+  text-align: center;
+}
+
+.blog h3 {
+  text-align: left;
+  margin-left: 1.5rem;
+  color: #000;
+  font-weight: 700;
+}
+
+.blog img {
+  margin-bottom: 1rem;
+}
+
+.blog p {
+  margin: 1.5rem;
+  text-align: justify;
+}
+
+.blog a {
+  text-decoration: none;
+  color: blue;
+}
+
+.bloging {
+  margin: 5rem 15rem 2rem 2rem;
+  font-family: sans-serif;
+  font-weight: 400;
+  text-align: justify;
+  background-color: #e5e6e9;
+  padding: 0.75rem 1.5rem;
+}
+
+.bloging h4 {
+  color: #000;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  font-size: larger;
+  padding-top: 1rem;
+  padding-bottom: 0;
+}
+
+.bloging p {
+  color: #333;
+  text-align: left;
+  margin: 1.5rem auto;
+  text-align: justify;
+}
+
+.bloging ul {
+  color: #333;
+  margin-top: 2rem;
+  margin-right: 9rem;
+  margin-left: 1rem;
+}
+
+.bloging li {
+  list-style: initial;
+  margin-bottom: 0.5rem;
+}
+
+.share {
+    margin-bottom: 5rem;
+}
+
+.blog-form {
+    margin: 5rem 0 10rem 0;
+    text-align: center;
+}
+
+.blog-form h5 {
+  color: #000;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  font-size: larger;
+  padding-top: 1rem;
+  padding-bottom: 0;
+}
+
+.blog-form form {
+  display: inline-flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.blog-form form input {
+  margin: 0.5rem;
+}
+
+.blog-form form button {
+  background-color: rgb(32, 15, 51);
+  color: white;
+  padding: 0.5rem 0;
+  margin: 0.5rem auto;
+  font: inherit;
+  border-radius: 4px;
+  border: 1px solid rgb(0, 0, 0) ;
+  cursor: pointer;
+  width: 40%;
+}
+
+.blog-form form button:hover {
+  background-color: rgb(71, 46, 99);
+  border-color: rgb(71, 46, 99);
+}

@@ -1,0 +1,199 @@
+.heading {
+  text-align: center;
+  margin-top: 6rem;
+  background: linear-gradient(135deg, rgb(0, 37, 93), rgb(0, 37, 93));
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.heading h1 {
+  padding: 3rem;
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 800;
+  margin: 0;
+}
+
+.heading iframe {
+  width: 8rem;
+  height: 5rem;
+}
+
+.full-course {
+  text-align: center;
+  margin: 2rem 14rem 2rem 14rem;
+}
+
+.full-course i {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  top: 1.1rem;
+  margin-left: 3rem;
+}
+
+.collapsible {
+  background-color: #d7dfe9;
+  color: #121c29;
+  cursor: pointer;
+  padding: 0 1.5rem 1rem 1.5rem;
+  width: auto;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  text-align: center;
+  outline: none;
+  font-size: 1rem;
+  font-weight: 800;
+  margin: auto;
+  border-bottom:0.1px solid #000;
+}
+
+.active,
+.collapsible:hover {
+  background-color: #305585;
+  color: #fff;
+  margin: auto;
+}
+
+.active p,
+.collapsible:hover p {
+  margin: auto;
+  padding: 0.2rem 0;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.content {
+  padding: 0.5rem 2rem 0.5rem 2rem;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+  text-align: left;
+}
+
+.content li {
+  list-style: initial;
+  border-bottom: 1px dotted #06244e;
+  color: #000;
+}
+.content li:last-child {
+  border-bottom: none;
+}
+
+@media (max-width: 72rem) {
+  .heading {
+    margin-top: 9rem;
+  }
+  .full-course {
+    margin: 2rem 10rem 2rem 10rem;
+  }
+}
+
+@media (max-width: 60rem) {
+  .heading {
+    margin-top: 9rem;
+  }
+  
+  .heading h1 {
+    padding: 2rem;
+    font-size: 1.5rem;
+  }
+  .full-course {
+    margin: 2rem 8rem 2rem 8rem;
+  }
+}
+
+@media (max-width: 48rem) {
+  .heading {
+    margin-top: 9rem;
+  }
+  
+  .heading h1 {
+    padding: 1rem;
+    font-size: 1.5rem;
+  }
+  .full-course {
+    margin: 1.25rem 4rem;
+  }
+  .collapsible {
+    padding: 0 1.25rem 1rem 1.25rem;
+    font-size: 0.85rem;
+    font-weight: 700;
+  }
+
+  .active p,
+  .collapsible:hover p {
+    margin: auto;
+    padding: 0.2rem 0;
+    font-size: 0.8rem;
+    font-weight: 600;
+  }
+}
+
+@media (max-width: 31rem) {
+  .heading {
+    margin-top: 4rem;
+  }
+  
+  .heading h1 {
+    padding: 1rem;
+    font-size: 1.25rem;
+  }
+  .full-course {
+    margin: 1rem 3rem 1rem 3rem;
+  }
+  .full-course i {
+    margin-left: 1rem;
+  }
+  .collapsible {
+    padding: -0.25rem 0.5rem 0.25rem 1rem;
+    font-size: 0.75rem;
+    font-weight: 700;
+  }
+
+  .active p,
+  .collapsible:hover p {
+    padding: 0.15rem 0;
+    font-size: 0.75rem;
+  }
+
+  .content {
+    padding: 0.5rem 0.5rem 0.5rem 2rem;
+  }
+}
+
+@media (max-width: 22rem) {
+  .heading {
+    margin-top: 3rem;
+  }
+  
+  .heading h1 {
+    padding: 1rem;
+    font-size: 1rem;
+  }
+
+  .full-course {
+    margin: 0.75rem 2rem;
+  }
+  .collapsible {
+    font-size: 0.5rem;
+    font-weight: 800;
+    padding-bottom: 0.5rem;
+  }
+  .full-course i {
+    top: 0.5rem;
+    margin-left: 0.5rem;
+    padding: 0;
+  }
+
+  .active p,
+  .collapsible:hover p {
+    padding: 0;
+    font-size: 0.5rem;
+  }
+
+  .content {
+    padding: 0.5rem 0.5rem 0.5rem 1.5rem;
+  }
+}

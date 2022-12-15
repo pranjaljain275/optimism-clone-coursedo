@@ -1,0 +1,111 @@
+header {
+  position: absolute;
+}
+
+.heading {
+  text-align: center;
+  margin: 3rem 0 1.5rem 0;
+  background-color: #446086;
+}
+
+.heading h1 {
+  padding: 3rem;
+  color: #e5e6e9;
+  font-size: 3rem;
+  font-weight: 1000;
+}
+
+.contact-sec {
+    margin: 8rem;
+}
+
+.address , .social{
+  background-color: rgb(234, 239, 247);
+  padding: 2rem 1rem;
+  margin: 1rem;
+}
+
+.address h2, .social h2 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.social ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.social i {
+  font-size: 3rem;
+  padding: 1.5rem;
+}
+
+.social i:hover {
+  color: #000;
+}
+
+.fa-facebook-square {
+  color:rgb(25, 28, 211);
+}
+
+.fa-google-plus-square {
+  color: red;
+}
+
+.fa-linkedin-square {
+  color: rgb(11, 0, 114);
+}
+
+.send-msg {
+    margin: 3rem 20rem;
+}
+
+.send-msg form {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(234, 239, 247);
+    width: 40rem;
+    margin: auto;
+    padding: 1rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+}
+
+.send-msg input,.send-msg textarea {
+  width: 100%;
+  margin-bottom: 1rem;
+  display: block;
+  box-sizing: border-box;
+  font: inherit;
+  border: 1px solid rgb(68, 34, 34);
+  padding: 0.25rem;
+  color: rgb(61, 58, 58);
+}
+
+.send-msg textarea {
+  resize: none;
+}
+
+.send-msg input:focus, 
+.send-msg textarea:focus {
+  background-color: rgb(198, 186, 212);
+  color: rgb(32, 15, 51);
+  border-color: rgb(125, 96, 158);
+}
+
+.send-msg button {
+  background-color: rgb(32, 15, 51);
+  color: white;
+  padding: 0.5rem 1rem;
+  margin: auto 0.25rem;
+  font: inherit;
+  border-radius: 4px;
+  border: 1px solid rgb(0, 0, 0) ;
+  cursor: pointer;
+}
+
+.send-msg button:hover {
+  background-color: rgb(71, 46, 99);
+  border-color: rgb(71, 46, 99);
+}

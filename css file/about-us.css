@@ -1,0 +1,28 @@
+header {
+    position: absolute;
+}
+
+.about-section {
+    margin: 5rem 2rem 10rem 2rem;
+    text-align: justify;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.about-section .about-box:nth-of-type(4) {
+    grid-column: 1 / span3;
+}
+
+.about-box {
+    margin: 0 2rem 4rem 2rem;
+    background-color: #e5e6e9;
+    padding: 1rem;
+}
+
+.about-box h2 {
+    background-color: #152235;
+    color: #fff;
+    font-weight: bolder;
+    text-align: center;
+    padding: 0.5rem 0;
+}
